@@ -32,7 +32,7 @@ title: Multiple Parson's Problems on One Page
     "can_indent": false,
     "x_indent": 50,
     "lang": "en",
-    "trashId": "p0_sortableTrash"
+    "trashId": "p0-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
