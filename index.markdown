@@ -8,12 +8,12 @@ title: Multiple Parson's Problems on One Page
 # Parsons Practice
 
 # My Test Parson
-<div id="sortableTrash" class="sortable-code"></div> 
-<div id="sortable" class="sortable-code"></div> 
+<div id="p0-sortableTrash" class="sortable-code"></div> 
+<div id="p0-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
-    <input id="feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="p0-feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="p0-newInstanceLink" value="Reset Problem" type="button" /> 
 </p> 
 <script type="text/javascript"> 
 (function(){
@@ -25,7 +25,7 @@ title: Multiple Parson's Problems on One Page
     "System.out.printline(&quot;Hello World&quot;); #distractor\n" +
     "public static void main(); #distractor";
   var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "sortable",
+    "sortableId": "p0-sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
@@ -33,7 +33,7 @@ title: Multiple Parson's Problems on One Page
     "x_indent": 50,
     "lang": "en",
     "show_feedback": true,
-    "trashId": "sortableTrash"
+    "trashId": "p0_sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
