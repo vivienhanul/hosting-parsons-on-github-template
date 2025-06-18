@@ -29,10 +29,9 @@ title: Multiple Parson's Problems on One Page
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
-    "can_indent": true,
+    "can_indent": false,
     "x_indent": 50,
     "lang": "en",
-    "show_feedback": true,
     "trashId": "p0_sortableTrash"
   });
   parsonsPuzzle.init(initial);
